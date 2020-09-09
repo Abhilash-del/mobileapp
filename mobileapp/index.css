@@ -1,0 +1,259 @@
+/* html,body {
+    width:400px;  
+    
+} */
+
+.back{
+    background-color:pink;
+    height:500px;
+    text-align: center;
+}
+
+.back h2 {
+    padding-top: 8rem;
+}
+
+.buttonclass{
+    display: flex;
+    justify-content: center;
+}
+
+
+.letters {
+    color: white;
+    /* align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-bottom: 10px;
+    font-style: oblique;
+    
+
+}
+.navbar {
+    /* width: 5000px; */
+    height: 50px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    
+}
+
+.button{
+    background-color: darkgoldenrod;
+    color:white;
+    padding: 10px;
+    flex-direction: row;
+
+}
+
+.side-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-ele{
+    margin-left: 1rem;
+}
+
+.secondback{
+    background-image: url("https://previews.123rf.com/images/netsay/netsay1602/netsay160222123/52993823-man-hand-writing-sabado-saturday-in-spanish-portuguese-with-black-marker-on-visual-screen-isolated-o.jpg");
+    justify-content: left;
+    padding-top: 10px;
+    height:500px;
+    
+}
+
+
+.lett{
+    color:black;
+    padding-top: 8rem;
+    
+}
+
+.lett2{
+    color:black;
+    margin-bottom: 10px;
+}
+
+.downloadbutton{
+
+background-color:white;
+}
+
+.service{
+    text-align: center;
+}
+
+.main-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detail-class-one ,
+.detail-class-two{
+    width: 20%;
+}
+
+.detail-class-svg{
+    width: 30%;
+    margin-top: 12px;
+}
+
+.detail-class-svg img{
+    margin: 22px;
+}
+.account-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inner-avatar-details{
+    width: 30%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.inner-highlight-avatar-details{
+    width: 30%;
+    text-align: center;
+
+}
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagin-point,
+.pagin-point-highlight{
+    margin: 2px;
+    padding: 8px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.pagin-point-highlight{
+    background-color: lightyellow;
+}
+
+
+.thirdback{
+    background-color:rgb(192, 255, 195);
+    /* height:500px; */
+}
+
+
+
+.fourthback{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwp3PralYTLqldwVwgvuWNiF112YXipfPgSg&usqp=CAU");
+    height:500px;
+    text-align: center;
+    padding-top: 4rem;
+    background-size: cover;
+    color:yellow;
+}
+
+
+
+.fifthback{
+    background-color: turquoise;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.eventsleft{
+    color:black;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+.sixthback{
+    background-color:lightskyblue;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.upcoming_events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event_details{
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image_event_details{
+    width:20%;
+    display:grid;
+}
+
+.place_event_details{
+    width:50%;
+    display: block;
+    flex-wrap: wrap; 
+    padding-bottom: 2rem;
+}
+
+.one_event{
+    display: flex;
+    
+
+}
+
+.seventhback{
+    background-color:black;
+    height:300px;
+    text-align: center;
+    padding-top: 2rem;
+    color: yellowgreen;
+
+}
+.seven{
+    text-align: center;
+}
+
+.input{
+    height: 46px;
+    text-align: center;
+}
+.blog-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.left_blog{
+   
+    width:20%;
+}
+.blog_date{
+    display: flex;
+    background-color:yellowgreen;
+    
+}
+
+.blog_meet{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color:gray;
+}
+.rahul{
+    margin-right: 2rem;
+    display: flow-root;
+    font-family: monospace;
+    justify-content: space-around;
+    font-size: xx-large;
+    
+}
+
